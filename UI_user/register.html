@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>💯 Corny_Store 💯</title>
+    <!-- Icon -->
+    <link rel="icon" href="../assets/imgs/logo_website.png"/>
+    
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="../assets/css/layouts_css/login_register.css"/>
+
+
+    <style>
+        .form-control_file {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 30px;
+            font-size: 18px;
+        }
+        .form-control_file label {
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Register</h1>
+        <form action="" method="">
+            <div class="form-control_file">
+                <label>Chọn ảnh đại diện</label>
+                <input type="file" name="avatar" id="img"
+                accept="image/*" required>
+            </div>
+            <div class="form-control">
+                <input type="text" required>
+                <label>Họ và tên</label>
+            </div>
+            <div class="form-control">
+                <input type="text" required>
+                <label>Email</label>
+            </div>
+            <div class="form-control">
+                <input type="password" required>
+                <label>Password</label>
+            </div>
+            <div class="form-control">
+                <input type="password" required>
+                <label>Password Confirm</label>
+            </div>
+            <button class="btn">Register</button>
+            <p class="text">Already have an account? <a href="login.html">Login</a> </p>
+        </form>
+    </div>
+    <script src="../js/form_wave_input.js"></script>
+</body>
+
+</html>
